@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="Ausrinelogo.ico" />
 </head>
 <body>
-    
+<header>
+    <nav>
+        <img src="Ausrinelogo.png" alt="logo">
+        <div class="nav-bar">
+            <div id="burger-button" onclick='cross()'>
+                <div class='burger-menu bar1'></div>
+                <div class='burger-menu bar2'></div>
+                <div class='burger-menu bar3'></div>
+            </div>
+            <div id="myContent" class="myDropDownContent">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a class="current" href="portfolio.html">HOME</a>
+                <a href="#">ABOUT ME</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- navigation for web-->
+<div class="webnav">
+    <a href="portfolio.html"><img src="Ausrinelogo.png" alt="logo"></a>
+    <div id="pages">
+        <a class="current" href="portfolio.html">HOME</a>
+        <a href="#">ABOUT ME</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACT</a>
+    </div>
+ </div>
+
+</header>
+
+
+
+<!--for navigation-->
+<script>
+    function cross(){
+        document.getElementById('myContent').style.height = '100%';
+        let x= document.getElementById('burger-button');
+        x.classList.toggle('change');
+        let drop = document.getElementById('myContent');
+        drop.classList.toggle('show');
+    }
+    function closeNav(){
+        document.getElementById('myContent').style.height = '0%';
+    }
+
+    window.onclick = function(event) {
+        if (!event.target.matches('#burger-button')) {
+            let dropdowns = document.getElementsByClassName("myDropDownContent");
+            let i;
+            for (i = 0; i < dropdowns.length; i++) {
+                let openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                document.getElementById('burger-button').classList.toggle('change');
+                }
+            }
+        }
+    }
+</script>
+
 </body>
 </html>
