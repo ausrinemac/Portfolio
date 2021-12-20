@@ -195,7 +195,7 @@ h3{
     color: #9E8B8B;
     display: flex;
     justify-content:left;
-    margin-top: 5rem;
+    margin-top: 13rem;
     margin-bottom: -1rem;
 }
 .education{
@@ -456,6 +456,56 @@ h3{
 .ausrinenyhavn-web {
     display:none;
 }
+.mcs{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0; 
+}
+.mc1 {
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.mc1 img {
+    width:100%;
+}
+.mc2 {
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.mc2 img {
+    width:100%;
+}
+.mc3 {
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.mc3 img {
+    width:100%;
+}.mc4 {
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.mc4 img {
+    width:100%;
+}.mc5 {
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.mc5 img {
+    width:100%;
+}
 
 
 
@@ -569,13 +619,16 @@ footer{
     }
     .h3-web{
         display: flex;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-left: -5rem;
 
     }
     .aboutme-textweb{
         display:flex;
         font-size: 18px;
-        line-height: 25px;
-        font-weight: 300;
+        line-height: 30px;
+        font-weight: 400;
         margin-right: 3rem;
     }
     .aboutme-thing-web{
@@ -589,12 +642,27 @@ footer{
     .ausrinenyhavn-web{
         width:50%;
         display: flex;
-        margin-left: 50rem;
-        margin-top: -14rem;
+        margin-left: 54rem;
+        margin-top: -23rem;
     }
     .ausrinenyhavn-web img{
         width:100%;
     }
+    .quote{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        grid-column: 1;
+        width:50%;
+        margin-left: 70px;
+        margin-top: -250px;
+        margin-bottom: 50px;
+        image-rendering: pixelated;
+    }
+    .quote img {
+        width: 100%;
+    }
+
 
 
 }
