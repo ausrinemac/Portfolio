@@ -316,6 +316,7 @@ h3{
 .web1 {
     image-rendering: pixelated;
     width: 100%;
+    margin-bottom: 1rem;
 
 }
 .web1 img{
@@ -443,11 +444,15 @@ h3{
     font-size: 17px;
     color: #9E8B8B;
 }
-
-
-
-
-
+.aboutme-textweb{
+    display: none;
+}
+.h3-web{
+    display: none;
+}
+.ausrinenyhavn-web {
+    display:none;
+}
 
 
 
@@ -487,6 +492,7 @@ footer{
     justify-content: center;
     grid-template-rows: auto;
 }
+
 
 
 
@@ -545,6 +551,18 @@ footer{
     }
     h1{
         font-size: 70px;
+    }
+    .aboutme-text1{
+        display:none;
+    }
+    .aboutme-text2{
+        display:none;
+    }
+    h3 {
+        display: none;
+    }
+    .ausrinenyhavn{
+        display:none;
     }
 
 
