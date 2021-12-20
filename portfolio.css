@@ -464,7 +464,7 @@ h3{
     margin-left: 0; 
 }
 .mc1 {
-    width:55%; 
+    width:45%; 
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -473,7 +473,7 @@ h3{
     width:100%;
 }
 .mc2 {
-    width:55%; 
+    width:45%; 
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -482,7 +482,7 @@ h3{
     width:100%;
 }
 .mc3 {
-    width:55%; 
+    width:45%; 
     display: block;
     margin-left: auto;
     margin-right: auto;  
@@ -490,7 +490,7 @@ h3{
 .mc3 img {
     width:100%;
 }.mc4 {
-    width:55%; 
+    width:45%; 
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -498,7 +498,7 @@ h3{
 .mc4 img {
     width:100%;
 }.mc5 {
-    width:55%; 
+    width:45%; 
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -506,14 +506,15 @@ h3{
 .mc5 img {
     width:100%;
 }
-
-
-
-
-
-
-
-
+.frame{
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.frame img{
+    width:100%;
+}
 
 
 
@@ -545,12 +546,6 @@ footer{
     justify-content: center;
     grid-template-rows: auto;
 }
-
-
-
-
-
-
 
 
 
@@ -661,6 +656,51 @@ footer{
     }
     .quote img {
         width: 100%;
+    }
+    .frame{
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .frame img{
+        width:100%;
+    }
+    .contact11{
+        font-size: 19px;
+        font-weight: 300;
+        color: #BB9E9E;
+        display: flex;
+        justify-content: center;
+        margin-right: -6rem;
+        margin-left: 25rem;
+    }
+    .contact22{
+        font-size: 19px;
+        font-weight: 300;
+        color: #BB9E9E;
+        display: flex;
+        justify-content: center;
+        margin-left: 17rem;
+    }
+    .contact111{
+        font-size: 14px;
+        font-weight: 300;
+        color: #BB9E9E;
+        display: flex;
+        justify-content: center;
+        margin-right: -6rem;
+        margin-bottom: 4rem;
+        margin-left: 25rem;
+    }
+    .contact222{
+        font-size: 14px;
+        font-weight: 300;
+        color: #BB9E9E;
+        display: flex;
+        justify-content: center;
+        margin-left: 17rem;
+        margin-bottom: 4rem;
     }
 
 
